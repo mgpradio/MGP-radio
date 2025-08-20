@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: url(/images/about-background.jpg);
+    background-size: auto;
+}
+
+.mgp{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: red;
+}
+
+.about{
+    margin: 30px;
+}
+.about-btn{
+    display: block;
+    margin: auto;
+   text-align: center;
+   text-decoration: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px;
+    background: rgb(245, 239, 239);
+   
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(56, 52, 52);
+    color: white;
+    text-decoration: none;
+    width: 160px;
+    height: 35px;
+}

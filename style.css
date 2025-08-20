@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Pattaya&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+} 
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    height: 150px;
+    border: 2px solid black;
+    background: url(images/header-background.jpg);
+}
+
+.logo-text{
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.5;    
+}   
+
+.logo-image{
+    width: 90px;
+    height: 90px;
+    margin-left: 0px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-style: italic;
+    color: gray;
+}
+.item{
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-right: 20px;
+}
+.nav-btn{
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    background: rgb(245, 239, 239);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: "Pattaya", sans-serif;
+    box-shadow: 1px 1px;
+}
+
+nav :hover{
+    height: 45px;
+    background: rgb(95, 92, 92);
+    color: white;
+    border-radius: 10px;}
+    
+  
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about{
+    margin: 20px;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.about1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: red;
+}
+.our-projects{
+    text-align: center;
+    margin: 10px;
+    font-family: "El Messiri", sans-serif;
+}
+
+
+.project1{
+     display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;
+    
+    
+}
+.project2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.project3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+.project4{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+.project5{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+.project6{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+    
+}
+h3{
+    font-size: 16px;
+    font-family: "El Messiri", sans-serif;
+    font-style: italic;
+    text-align: center;  
+}
+
+.partners-text{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px;
+    font-family: "El Messiri", sans-serif;
+}
+
+.partners{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.partner1{
+display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+.partner2{
+display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+.partner3{
+display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 355px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;  
+}
+
+footer{
+    margin: 50px;
+
+}
+select{
+    display: block;
+    width: 100px;
+    height: auto;
+    color: black;
+    background: rgb(245, 239, 239);
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family:  sans-serif;
+    box-shadow: 1px 1px;
+}
+
+.social{
+    width: 30px; 
+    height: 30px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url(/images/footer-background.jpg);
+}
+
+
+@media (max-width: 576px) {
+    nav{display: none;}
+    .menu{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    select{display: none;}
+    .cont{display: none;}
+    }
