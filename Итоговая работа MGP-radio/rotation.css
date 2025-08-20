@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: url(/images/about-background.jpg);
+    background-size: auto;
+}
+
+h1{
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+p{
+    margin: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(245, 239, 239);
+}
+.rotation-btn:hover{
+    cursor: pointer;
+    background: rgb(27, 25, 25);
+    color: white;
+}
